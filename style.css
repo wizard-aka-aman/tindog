@@ -73,8 +73,11 @@ font-weight: 700;
     padding: 4.5%;
 }
 .feature-column-1{
+    width: 25% !important;
+    height: 25% !important;
 /* height:40vh ; */
 }
+
 .testimonials{
         background-color: rgb(239, 129, 114);
          
