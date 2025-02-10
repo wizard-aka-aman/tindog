@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+
+
+.front{
+    background-color: rgb(255, 76, 104);
+    height: 93vh;
+    z-index: 1;
+    overflow: hidden;
+}
+.container{
+    padding: 3% 10% 9% !important;
+     
+} 
+.navbar-brand{
+    font-size: 2.5rem!important;
+    font-weight: bold!important;
+    font-family: 'Ubuntu', sans-serif!important;
+}
+.nav-item{
+    font-size: 1.4rem!important; 
+}
+.h1tag{
+    /* font-size: 3.5rem; */
+    font-size: clamp(1.5rem, 5vw, 3.5rem);
+    font-weight: 900;
+}
+.topdog{
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 10%;
+    transform:  rotate(25deg)!important;
+}  
+.featureicon1 {
+    color:  rgb(255, 126, 145)  ;
+    font-size: 3em !important;
+}
+.featureicon1 ::before{
+    font-size: 3em !important;
+}
+.feature-box h3{
+font-weight: 700;
+}
+.featureicon2:hover{ 
+    color: rgb(255, 76, 104);
+}
+.featureicon3:hover{
+    
+    color: rgb(255, 76, 104);
+}
+.featureicon1:hover{ 
+    color: rgb(255, 76, 104);
+}
+.featureicon2{
+    color: rgb(255, 126, 145) ; 
+    font-size: 3rem;
+    border-radius: 50%; 
+}
+.featureicon3{
+    color: rgb(255, 126, 145) ; 
+    font-size: 3rem;
+    border-radius: 50%; 
+}
+.feature{
+    padding: 7% 15%; 
+}
+.feature-box {
+    padding: 4.5%;
+}
+.feature-column-1{
+/* height:40vh ; */
+}
+.testimonials{
+        background-color: rgb(239, 129, 114);
+         
+}
+.testimonials-h1{
+    /* font-size: 3.5rem!important; */
+    font-size: clamp(2rem, 5vw, 3.5rem) !important;
+
+    font-weight: bold!important;
+    line-height: 1.4;
+    font-family: 'Ubuntu', sans-serif!important;
+    color: white;
+}
+.testimonials-p{
+    font-size: clamp(2rem, 2vw, 2rem) !important;
+}
+.testimonials-img1{
+    max-width: 50%;
+  height: auto;
+  display: block;
+    border-radius: 50%;
+}
+.testimonialsimages{ 
+    /* height: 25%; */
+}
+.testimonialscontainer {
+    padding: 3% 10% 1% 9% !important;
+    min-height: 73vh;
+} 
+.testimonialslogo{
+    width: 20%;
+    margin: 20px 20px 50px;
+} 
+.pricing-h1{
+    font-size: 3.5rem!important;
+    font-weight: 800!important;
+}
+.pricing-row2-h1{
+    font-size: 3.5rem!important;
+    font-weight: 800!important;
+}
+
+.pricing-row1-h1{
+    font-size: 2rem!important; 
+    font-weight: 700!important;
+}
+.pricingcontainer{
+    padding: 3% 4% 1% 4% !important;
+}
+.lower{
+    margin-top: 4%;
+}
+.pricing-first{
+   background-color: rgb(229, 229, 229);
+}
+.download{
+    background-color: rgb(255, 76, 104);
+    /* height: 65vh; */
+}
+.download-h1{
+    font-size: clamp(1.5rem, 5vw, 4rem);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700!important;
+}
+footer{
+    height: 30vh;
+}
+@media(max-width:1024px){
+    .topdog{
+      width:60%;
+      position: static;
+      transform: rotate(0deg);
+    }
+    .front{
+      text-align: center;
+    }
+  }
