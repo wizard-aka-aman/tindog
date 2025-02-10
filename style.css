@@ -6,13 +6,7 @@ body {
   text-align: center;
 }
 
-
-.front{
-    background-color: rgb(255, 76, 104);
-    height: 93vh;
-    z-index: 1;
-    overflow: hidden;
-}
+ 
 .container{
     padding: 3% 10% 9% !important;
      
@@ -177,3 +171,28 @@ footer{
       text-align: center;
     }
   }
+  @media screen and (max-width: 990px) {
+    .front{
+        background-color: rgb(255, 76, 104);
+    }
+    .topdog{
+        position: relative;
+        width:60%; 
+        top: 10%;
+  }
+} @media screen and (max-width: 780px) {
+    
+    .topdog{
+        position: relative;
+        width:70%; 
+        top: 10%;
+  }
+} @media screen and (min-width: 780px) {
+    
+   .front{
+    background-color: rgb(255, 76, 104);
+    height: 93vh;
+    z-index: 1;
+    overflow: hidden;
+   }
+}
